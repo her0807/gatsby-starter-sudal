@@ -1,5 +1,5 @@
 module.exports = {
-  title: "sudal",
+  title: "sudal.site",
   description: "안녕하세요. 재밌게 개발하는 수달입니다. ☺️",
   author: "Sudal",
   siteUrl: "https://sudal.site",
