@@ -98,7 +98,7 @@ assertThrows(UnsupportedOperationException.class, () -> list.set(1, "four"));
 
 또한 *List.of() 는 null* 값을 입력으로 허용하지 않으며 *`NullPointerException`* 을 throw합니다 .
 
-```
+```java
 assertThrows(NullPointerException.class, () -> List.of("one", null, "two"));복사
 ```
 
