@@ -187,10 +187,14 @@ public class FootballCoach implements Coach {
 }
 ```
 
-## 정리
+## 느낀점
 
 - 의존성 주입은 생성자 주입 방식을 사용하는게 가장 좋다.
 - 구현체가 두개일 경우 필드명이나 우선순위를 통해 구현체 선택이 가능하다
 - 생성자 방식을 여러개 사용할 경우 `생성자 - 필드 - 메서드` 순으로 실행된다.
 
 습관처럼 사용하던 생성자로 의존성 주입하는 방식보다 더 좋은 방식은 없을까? 궁금하지 않았다면 위에 학습했던 재밌는 내용을 놓쳤을 것 같아요. 모든 학습은 의식적으로 내가 선택한 방식에 근거를 찾아가며 하는게 좋겠다고 생각되네요!
+
+
+## 참고자료
+- [공식 문서](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html)
