@@ -1,7 +1,7 @@
 ---
 title: "Spring test 에서 의존성 주입 방식이 @autowired 로 강제되는 이유"
 description: ""
-date: "2022-12-12 10:00:00"
+date: "2022-12-12 18:00:00"
 update: "2022-12-12"
 tags:
   - spring 
