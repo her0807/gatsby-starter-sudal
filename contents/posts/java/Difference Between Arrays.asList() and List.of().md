@@ -5,9 +5,6 @@ date: "2022-10-22"
 update: "2022-10-22"
 tags:
   - java
-  - List.of
-  - Arrays.asList
-
 ---
 
 > 해당 내용은  **Baeldung 사이트를 번역한 후, 제 생각을 정리한 글입니다.**

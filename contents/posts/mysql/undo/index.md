@@ -4,10 +4,8 @@ description: ""
 date: "2022-10-24 21:00:00"
 update: "2022-10-24"
 tags:
-  - mysql 8.0 
-  - 언두로그
-  - 리두로그
-  - 언두로그 소멸시점
+  - mysql 
+  - RealMySQL.8.0
 ---
 
 
