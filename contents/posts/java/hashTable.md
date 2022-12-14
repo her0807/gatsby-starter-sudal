@@ -16,7 +16,7 @@ tags:
 
 해시 테이블은 연관배열 구조를 이용해서 키(key) 에 결과값에 (value) 를 저장하는 자료 구조 입니다! 
 
-![hash_table.png](./hashtable.png)
+![hashtable.png](./hashtable.png)
 
 ### 저장 시간 복잡도
 
