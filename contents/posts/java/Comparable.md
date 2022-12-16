@@ -1,7 +1,7 @@
 ---
 title: "[Effective Java -14장] Comparable 을 구현할지 고려해라"
 description: ""
-date: "2022-12-16"
+date: "2022-12-16 11:52:00"
 update: "2022-12-16"
 tags:
   - Effective java
