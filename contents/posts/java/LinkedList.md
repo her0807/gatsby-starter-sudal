@@ -1,7 +1,7 @@
 ---
 title: "Arrays vs LinkedList"
 description: ""
-date: "2022-12-16"
+date: "2022-12-16 10:00:00"
 update: "2022-12-16"
 tags:
   - java

@@ -1,7 +1,7 @@
 ---
 title: "ArrayList 가 동적으로 사이즈가 늘어나는 동작 원리!"
 description: ""
-date: "2022-12-16"
+date: "2022-12-16 09:00:00"
 update: "2022-12-16"
 tags:
   - java
