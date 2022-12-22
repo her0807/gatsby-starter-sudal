@@ -1,5 +1,5 @@
 ---
-title: "Hash table, HashMap, HashSet"
+title: "캡슐화(Encapsulation)란?"
 description: ""
 date: "2022-12-22 10:00:00"
 update: "2022-12-22"
