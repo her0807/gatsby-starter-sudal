@@ -1,5 +1,5 @@
 ---
-title: "[재고 시스템으로 알아보는 동시성 이슈 ] -NamedLock"
+title: "NamedLock - [재고 시스템으로 알아보는 동시성 이슈]"
 description: ""
 date: "2023-01-01 13:00:00"
 update: "2023-01-01"
@@ -80,9 +80,7 @@ public interface LockRepository extends JpaRepository<Stock, Long> {
 
 ## 프로젝트 구축 방법
 
-[https://start.spring.io/](https://start.spring.io/) 에서 아래와 같이 설정을 한 후, 생성을 눌러 프로젝트 파일을 만듭니다! 
-
-이번 학습에서는 스프링과 JPA 를 사용할 예정입니다. 
+[https://start.spring.io/](https://start.spring.io/) 에서 아래와 같이 설정을 한 후, 생성을 눌러 프로젝트 파일을 만듭니다! 이번 학습에서는 스프링과 JPA 를 사용할 예정입니다. 
 
 
 ![프로젝트.png](./프로젝트.png)
@@ -201,9 +199,7 @@ public class NamedLockStockFacade {
 
 우선 가상 상황을 만들어보자면, 100개의 재고가 있는 상품에 대해서 100명이 동시에 요청이 들어왔을 때 정상적으로 100개의 재고가 0로 변경되는 것이 보장되는가에 대한 테스트를 진행하고 싶었어요. 
 
-그래서 before 에 재고가 100개인 스탁을 하나 만들어요. 그리고 100개의 쓰레드를 만든 다음  `countDownLatch` 를 사용해서 100개의 쓰레드가 한꺼번에 실행할 수있도록 대기 상태를 만듭니다. 
-
-`countDownLatch.await()`  count 가 0이 될 때까지 대기했다가 0이 되면 한꺼번에 실행시킵니다! 
+그래서 before 에 재고가 100개인 스탁을 하나 만들어요. 그리고 100개의 쓰레드를 만든 다음  `countDownLatch` 를 사용해서 100개의 쓰레드가 한꺼번에 실행할 수있도록 대기 상태를 만듭니다. `countDownLatch.await()`  count 가 0이 될 때까지 대기했다가 0이 되면 한꺼번에 실행시킵니다! 
 
 ```java
 @SpringBootTest
