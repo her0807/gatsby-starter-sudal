@@ -60,7 +60,7 @@ public interface LockRepository extends JpaRepository<Stock, Long> {
 
 해당 락은 `스레드가 종료된다고해서 자동으로 락이 반납되는게 아니기 때문에` 꼭꼭꼭 락을 반납해줘야합니다. 
 
-## ETC )락 관련된 다른 함수들
+## ETC) 락 관련된 다른 함수들
 
 그 외에도 락이 있는지 확인하거나 사용중인지 확인하는 기타 함수들이 있습니다. 
 
